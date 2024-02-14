@@ -1,0 +1,90 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media only screen and (max-width: 575.98px) {
+  .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+}
+  #banner .content a {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  #features .bg-overlay {
+    padding-top: 42px;
+   
+  }
+  #features .features-list {
+    padding: 0px 0 0 0;
+  }
+  .flip-items {
+    margin-top: 60px;
+  }
+  #features img {
+    width: 100%;
+  }
+  .contact_img img {
+    width: 100%;
+  }
+  .item {
+    width: 100%;
+    text-align: center;
+  }
+  #plan .left_fade h3,
+  #company .company_title h3,
+  #contact .contact_text h3,
+  #clients .section-header h2,
+  #top-shape-wrapper .the_team h2 {
+    font-size: 30px;
+  }
+
+  li a::after {
+  
+    /* background-color: #ff651c; */
+    
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+}
+  .flip-items {
+    margin-top: 60px;
+  }
+  #features .bg-overlay {
+    padding-top: 42px;
+  
+  }
+  #features .features-list {
+    padding: 0px 0 0 0;
+  }
+  #banner .content a {
+   
+    padding: 15px 50px;
+   
+    margin-left: 42px;
+  }
+  
+ }
+
+
+
+
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .flip-items {
+    margin-top: 60px;
+  }
+}
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+  #features .phone img {
+    margin-left: -100px;
+  }
+
+}
